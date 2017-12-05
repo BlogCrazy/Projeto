@@ -120,6 +120,7 @@
     </div>
 
     <main role="container-fluid">
+        <h1><?php echo md5('hugozika') ?></h1>
         <?php
         if (isset($_GET['url'])) {
             $url = $_GET['url'];
