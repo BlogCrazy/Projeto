@@ -26,16 +26,21 @@
     <main role="container-fluid">
 
         <?php
-        if (isset($_GET['url'])) {
-            $url = $_GET['url'];
-        } else {
-            $url = 'home';
-        }
-
-        switch ($url) {
-            case $url: include 'paginas/' . $url . '.php';
-                break;
-        }
+        
+//        echo md5('hugozika');
+        
+//        if (isset($_GET['url'])) {
+//            $url = $_GET['url'];
+//        } else {
+//            $url = 'home';
+//        }
+//
+//        switch ($url) {
+//            case $url: include 'paginas/' . $url . '.php';
+//                break;
+//        }
+        
+        include 'paginas/conteudo.php';
         ?>
         <div class="clearfix"></div>
         <!-- FOOTER -->

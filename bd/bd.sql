@@ -19,6 +19,7 @@ CREATE TABLE `artigos` (
  `titulo_artigo` varchar(100) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
  `categoria_artigo` int(2) DEFAULT NULL,
  `autor_categoria` int(2) DEFAULT NULL,
+ `conteudo_artigo` varchar (2000) DEFAULT NULL,
  `data_post` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
  PRIMARY KEY (`id_artigo`),
  KEY `categoria_artigo` (`categoria_artigo`),
