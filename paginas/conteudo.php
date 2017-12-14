@@ -1,4 +1,7 @@
 <?php
+if (isset($_GET['Noticia'])) {
+    echo $Artigo = $_GET['Noticia'];
+}
 $QueryBuscarArtigo = "
         SELECT 
         a.*, c.titulo_categoria
